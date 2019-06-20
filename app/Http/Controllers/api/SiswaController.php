@@ -16,8 +16,8 @@ class SiswaController extends Controller
      */
     public function index()
     {
-        $Siswa = Siswa::all();
-        if (!$Siswa) {
+        $siswa = Siswa::all();
+        if (!$siswa) {
             $response = [
                 'success' => false,
                 'data' => ' Empty ',
@@ -28,7 +28,7 @@ class SiswaController extends Controller
 
         $response = [
             'success' => true,
-            ' data ' =>  $Siswa,
+            ' data ' =>  $siswa,
             ' message' =>     'Berhasil .'
         ];
 
@@ -64,8 +64,8 @@ class SiswaController extends Controller
      */
     public function show($id)
     {
-        $Siswa = Siswa::Find();
-        if (!$Siswa) {
+        $siswa = Siswa::Find();
+        if (!$siswa) {
             $response = [
                 'success' => false,
                 'data' => ' Empty ',
@@ -76,7 +76,7 @@ class SiswaController extends Controller
 
         $response = [
             'success' => true,
-            ' data ' =>  $Siswa,
+            ' data ' =>  $siswa,
             ' message' =>     'Berhasil .'
         ];
 

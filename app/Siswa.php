@@ -8,5 +8,5 @@ class siswa extends Model
 {
     protected $fillable = ['nama'];
 
-    public $timestamps = ['true'];
+    public $timestamps = 'true';
 }
