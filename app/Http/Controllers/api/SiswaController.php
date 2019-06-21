@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\User;
 use App\Siswa;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class SiswaController extends Controller
 {
@@ -53,7 +54,35 @@ class SiswaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //1. tampung semua inputan ke $input;
+        $input = $request->all();
+
+        //2. buat validasi ditampung ke $validator
+        $validator = Validator::make($input, [
+            'nama' => 'required | min:10'
+        ]);
+
+        //3. chek validasi
+        if ($validator->fails()) {
+            $response = [
+                ' success ' => false,
+                ' data' =>   'Validation   Error.',
+                ' message' => $validator->errors()
+            ];
+            return response()->json($response, 500);
+        }
+
+        //4. buat fungsi untuk menghandle semua inputan->masukan ke table
+        $siswa = Siswa::create($input);
+
+        //5. menampilkan response
+        $response = [
+            'success' => true,
+            'data' => $siswa,
+            ' message' => 'Siswa berhasil  ditambhkan.'
+        ];
+        //6. tampilkan hasil
+        return response()->json($response, 200);
     }
 
     /**
@@ -67,19 +96,18 @@ class SiswaController extends Controller
         $siswa = Siswa::Find();
         if (!$siswa) {
             $response = [
-                'success' => false,
-                'data' => ' Empty ',
-                ' message' => 'Siswa. tidak ditemukan.'
+                ' success ' => false,
+                ' data ' =>  '  empty ',
+                'message'  => 'Si s wa tidak ditemukan.'
             ];
             return response()->json($response,  404);
         }
 
-        $response = [
+        $response  =  [
             'success' => true,
-            ' data ' =>  $siswa,
-            ' message' =>     'Berhasil .'
+            ' data' => $siswa,
+            ' message'  => 'Berhasil.'
         ];
-
         return response()->json($response, 200);
     }
 
