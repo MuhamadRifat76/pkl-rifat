@@ -93,7 +93,7 @@ class SiswaController extends Controller
      */
     public function show($id)
     {
-        $siswa = Siswa::Find();
+        $siswa = Siswa::Find($id);
         if (!$siswa) {
             $response = [
                 ' success ' => false,
@@ -131,9 +131,32 @@ class SiswaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
-    }
+        $siswa = Siswa::Find($id);
+        $input = $request->all();
 
+        if (!$siswa) {
+            $response = [
+                ' success ' => false,
+                ' data ' =>  '  empty ',
+                'message'  => 'Siswa tidak ditemukan.'
+            ];
+            return response()->json($response,  404);
+        }
+
+        $validator = Validator::make($input, [
+            'nama' => 'required | min:10'
+        ]);
+
+        $siswa->nama = $input['nama'];
+        $siswa->save();
+
+        $response  =  [
+            'success' => true,
+            ' data' => $siswa,
+            ' message'  => 'Siswa berhasil diupdate.'
+        ];
+        return response()->json($response, 200);
+    }
     /**
      * Remove the specified resource from storage.
      *
