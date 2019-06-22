@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Auth::routes();
 
@@ -28,7 +26,7 @@ Route::get('/admin', function () {
 });
 
 
-Route::get('/Welcome', function () {
+Route::get('/', function () {
     return view('frontend/index');
 });
 

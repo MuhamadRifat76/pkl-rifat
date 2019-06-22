@@ -31,7 +31,7 @@
                         <div class="top-header-content d-flex align-items-center justify-content-between">
                             <!-- Logo -->
                             <div class="logo">
-                                <a href="Welcome"><img src="img/core-img/logo.png" alt=""></a>
+                                <a href="/"><img src="img/core-img/logo.png" alt=""></a>
                             </div>
 
                             <!-- Login Search Area -->
@@ -83,17 +83,17 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="Welcome">Home</a></li>
+                                    <li class="active"><a href="/">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="Welcome">Home</a></li>
+                                            <li><a href="/">Home</a></li>
                                             <li><a href="catagories">Catagories</a></li>
                                             <li><a href="single-post">Single Articles</a></li>
                                             <li><a href="about">About Us</a></li>
                                             <li><a href="contact">Contact</a></li>
                                             <li><a href="#">Dropdown</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="Welcome">Home</a></li>
+                                                    <li><a href="/">Home</a></li>
                                                     <li><a href="catagories">Catagories</a></li>
                                                     <li><a href="single-post">Single Articles</a></li>
                                                     <li><a href="about">About Us</a></li>
@@ -106,7 +106,7 @@
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
                                                 <li class="title">Catagories</li>
-                                                <li><a href="Welcome">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="catagories-post">Catagories</a></li>
                                                 <li><a href="single-post">Single Articles</a></li>
                                                 <li><a href="about">About Us</a></li>
@@ -114,7 +114,7 @@
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li class="title">Catagories</li>
-                                                <li><a href="Welcome">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="catagories">Catagories</a></li>
                                                 <li><a href="single-post">Single Articles</a></li>
                                                 <li><a href="about">About Us</a></li>
@@ -122,7 +122,7 @@
                                             </ul>
                                             <ul class="single-mega cn-col-4">
                                                 <li class="title">Catagories</li>
-                                                <li><a href="Welcome">Home</a></li>
+                                                <li><a href="/">Home</a></li>
                                                 <li><a href="catagories">Catagories</a></li>
                                                 <li><a href="single-post">Single Articles</a></li>
                                                 <li><a href="about">About Us</a></li>
