@@ -26,3 +26,27 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', function () {
     return view('backend');
 });
+
+
+Route::get('/Welcome', function () {
+    return view('frontend/index');
+});
+
+Route::get('/single-post', function () {
+    return view('frontend/single-post');
+});
+
+
+Route::get('/about', function () {
+    return view('frontend/about');
+});
+
+
+Route::get('/contact', function () {
+    return view('frontend/contact');
+});
+
+
+Route::get('/categories', function () {
+    return view('frontend/categories');
+});
