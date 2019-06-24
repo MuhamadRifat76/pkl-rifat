@@ -1,1470 +1,1241 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Avision</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Demo project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Mag - Video &amp; Magazine HTML Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-
-<div class="super_container">
-
-	<!-- Header -->
-
-	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="header_content d-flex flex-row align-items-center justify-content-start">
-						<div class="logo"><a href="Welcome">News</a></div>
-						<nav class="main_nav">
-							<ul>
-								<li class="active"><a href="Welcome">Home</a></li>
-								<li><a href="category">Category</a></li>
-								<li><a href="#">Gadgets</a></li>
-								<li><a href="#">Lifestyle</a></li>
-								<li><a href="#">Video</a></li>
-								<li><a href="contact">Contact</a></li>
-							</ul>
-						</nav>
-						<div class="search_container ml-auto">
-							<div class="weather">
-								<div class="temperature">+10°</div>
-								<img class="weather_icon" src="images/cloud.png" alt="">
-							</div>
-							<form action="#">
-								<input type="search" class="header_search_input" required="required" placeholder="Type to Search...">
-								<img class="header_search_icon" src="images/search.png" alt="">
-							</form>
-							
-						</div>
-						<div class="hamburger ml-auto menu_mm">
-							<i class="fa fa-bars trans_200 menu_mm" aria-hidden="true"></i>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<!-- Menu -->
-
-	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
-		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-		<div class="logo menu_mm"><a href="#">Avision</a></div>
-		<div class="search">
-			<form action="#">
-				<input type="search" class="header_search_input menu_mm" required="required" placeholder="Type to Search...">
-				<img class="header_search_icon menu_mm" src="images/search_2.png" alt="">
-			</form>
-		</div>
-		<nav class="menu_nav">
-			<ul class="menu_mm">
-				<li class="menu_mm"><a href="Welcome">home</a></li>
-				<li class="menu_mm"><a href="category">Category</a></li>
-				<li class="menu_mm"><a href="#">Gadgets</a></li>
-				<li class="menu_mm"><a href="#">Lifestyle</a></li>
-				<li class="menu_mm"><a href="#">Video</a></li>
-				<li class="menu_mm"><a href="contact.">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
-	
-	<!-- Home -->
-
-	<div class="home">
-		
-		<!-- Home Slider -->
-
-		<div class="home_slider_container">
-			<div class="owl-carousel owl-theme home_slider">
-				
-				<!-- Slider Item -->
-				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider.jpg)"></div>
-					<div class="home_slider_content_container">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_slider_content">
-										<div class="home_slider_item_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
-										<div class="home_slider_item_title">
-											<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a>
-										</div>
-										<div class="home_slider_item_link">
-											<a href="post.html" class="trans_200">Continue Reading
-												<svg version="1.1" id="link_arrow_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-													 width="19px" height="13px" viewBox="0 0 19 13" enable-background="new 0 0 19 13" xml:space="preserve">
-													<polygon fill="#FFFFFF" points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 "/>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Similar Posts -->
-					<div class="similar_posts_container">
-						<div class="container">
-							<div class="row d-flex flex-row align-items-end">
-
-								<!-- Similar Post -->
-								<div class="col-lg-3 col-md-6 similar_post_col">
-									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
-									</div>
-								</div>
-
-								<!-- Similar Post -->
-								<div class="col-lg-3 col-md-6 similar_post_col">
-									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
-									</div>
-								</div>
-
-								<!-- Similar Post -->
-								<div class="col-lg-3 col-md-6 similar_post_col">
-									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
-									</div>
-								</div>
-
-							</div>
-						</div>
-						
-						<div class="home_slider_next_container">
-							<div class="home_slider_next" style="background-image:url(images/home_slider_next.jpg)">
-								<div class="home_slider_next_background trans_400"></div>
-								<div class="home_slider_next_content trans_400">
-									<div class="home_slider_next_title">next</div>
-									<div class="home_slider_next_link">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<!-- Slider Item -->
-				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider.jpg)"></div>
-					<div class="home_slider_content_container">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_slider_content">
-										<div class="home_slider_item_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
-										<div class="home_slider_item_title">
-											<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a>
-										</div>
-										<div class="home_slider_item_link">
-											<a href="post.html" class="trans_200">Continue Reading
-												<svg version="1.1" id="link_arrow_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-													 width="19px" height="13px" viewBox="0 0 19 13" enable-background="new 0 0 19 13" xml:space="preserve">
-													<polygon fill="#FFFFFF" points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 "/>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Similar Posts -->
-					<div class="similar_posts_container">
-						<div class="container">
-							<div class="row d-flex flex-row align-items-end">
-
-								<!-- Similar Post -->
-								<div class="col-lg-3 col-md-6 similar_post_col">
-									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
-									</div>
-								</div>
-
-								<!-- Similar Post -->
-								<div class="col-lg-3 col-md-6 similar_post_col">
-									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
-									</div>
-								</div>
-
-								<!-- Similar Post -->
-								<div class="col-lg-3 col-md-6 similar_post_col">
-									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
-									</div>
-								</div>
-
-							</div>
-						</div>
-						
-						<div class="home_slider_next_container">
-							<div class="home_slider_next" style="background-image:url(images/home_slider_next.jpg)">
-								<div class="home_slider_next_background trans_400"></div>
-								<div class="home_slider_next_content trans_400">
-									<div class="home_slider_next_title">next</div>
-									<div class="home_slider_next_link">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<!-- Slider Item -->
-				<div class="owl-item">
-					<div class="home_slider_background" style="background-image:url(images/home_slider.jpg)"></div>
-					<div class="home_slider_content_container">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_slider_content">
-										<div class="home_slider_item_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
-										<div class="home_slider_item_title">
-											<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a>
-										</div>
-										<div class="home_slider_item_link">
-											<a href="post.html" class="trans_200">Continue Reading
-												<svg version="1.1" id="link_arrow_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-													 width="19px" height="13px" viewBox="0 0 19 13" enable-background="new 0 0 19 13" xml:space="preserve">
-													<polygon fill="#FFFFFF" points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 "/>
-												</svg>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Similar Posts -->
-					<div class="similar_posts_container">
-						<div class="container">
-							<div class="row d-flex flex-row align-items-end">
-
-								<!-- Similar Post -->
-								<div class="col-lg-3 col-md-6 similar_post_col">
-									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
-									</div>
-								</div>
-
-								<!-- Similar Post -->
-								<div class="col-lg-3 col-md-6 similar_post_col">
-									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
-									</div>
-								</div>
-
-								<!-- Similar Post -->
-								<div class="col-lg-3 col-md-6 similar_post_col">
-									<div class="similar_post trans_200">
-										<a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a>
-									</div>
-								</div>
-
-							</div>
-						</div>
-						
-						<div class="home_slider_next_container">
-							<div class="home_slider_next" style="background-image:url(images/home_slider_next.jpg)">
-								<div class="home_slider_next_background trans_400"></div>
-								<div class="home_slider_next_content trans_400">
-									<div class="home_slider_next_title">next</div>
-									<div class="home_slider_next_link">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-
-			<div class="custom_nav_container home_slider_nav_container">
-				<div class="custom_prev custom_prev_home_slider">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
-						<polyline fill="#FFFFFF" points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 "/>
-					</svg>
-				</div>
-		        <ul id="custom_dots" class="custom_dots custom_dots_home_slider">
-					<li class="custom_dot custom_dot_home_slider active"><span></span></li>
-					<li class="custom_dot custom_dot_home_slider"><span></span></li>
-					<li class="custom_dot custom_dot_home_slider"><span></span></li>
-				</ul>
-				<div class="custom_next custom_next_home_slider">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
-						<polyline fill="#FFFFFF" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 "/>
-					</svg>
-				</div>
-			</div>
-
-		</div>
-	</div>
-	
-	<!-- Page Content -->
-
-	<div class="page_content">
-		<div class="container">
-			<div class="row row-lg-eq-height">
-
-				<!-- Main Content -->
-
-				<div class="col-lg-9">
-					<div class="main_content">
-
-						<!-- Blog Section - Don't Miss -->
-
-						<div class="blog_section">
-							<div class="section_panel d-flex flex-row align-items-center justify-content-start">
-								<div class="section_title">Don't Miss</div>
-								<div class="section_tags ml-auto">
-									<ul>
-										<li class="active"><a href="category.html">all</a></li>
-										<li><a href="category.html">style hunter</a></li>
-										<li><a href="category.html">vogue</a></li>
-										<li><a href="category.html">health & fitness</a></li>
-										<li><a href="category.html">travel</a></li>
-									</ul>
-								</div>
-								<div class="section_panel_more">
-									<ul>
-										<li>more
-											<ul>
-												<li><a href="category.html">new look 2018</a></li>
-												<li><a href="category.html">street fashion</a></li>
-												<li><a href="category.html">business</a></li>
-												<li><a href="category.html">recipes</a></li>
-												<li><a href="category.html">sport</a></li>
-												<li><a href="category.html">celebrities</a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="section_content">
-								<div class="grid clearfix">
-
-									<!-- Largest Card With Image -->
-									<div class="card card_largest_with_image grid-item">
-										<img class="card-img-top" src="images/post_1.jpg" alt="https://unsplash.com/@cjtagupa">
-										<div class="card-body">
-											<div class="card-title"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<p class="card-text">Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it off with your teeth. Sink them into unripened...</p>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card Without Image -->
-									<div class="card card_default card_small_no_image grid-item">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card With Background -->
-									<div class="card card_default card_small_with_background grid-item">
-										<div class="card_background" style="background-image:url(images/post_4.jpg)"></div>
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card With Image -->
-									<div class="card card_small_with_image grid-item">
-										<img class="card-img-top" src="images/post_2.jpg" alt="https://unsplash.com/@jakobowens1">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card With Image -->
-									<div class="card card_small_with_image grid-item">
-										<img class="card-img-top" src="images/post_3.jpg" alt="https://unsplash.com/@jannerboy62">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Default Card No Image -->
-
-									<div class="card card_default card_default_no_image grid-item">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a></div>
-										</div>
-									</div>
-
-									<!-- Default Card No Image -->
-
-									<div class="card card_default card_default_no_image grid-item">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a></div>
-										</div>
-									</div>
-
-									<!-- Default Card No Image -->
-
-									<div class="card card_default card_default_no_image grid-item">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a></div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-						<!-- Blog Section - What's Trending -->
-
-						<div class="blog_section">
-							<div class="section_panel d-flex flex-row align-items-center justify-content-start">
-								<div class="section_title">What's Trending</div>
-								<div class="section_tags ml-auto">
-									<ul>
-										<li class="active"><a href="category.html">all</a></li>
-										<li><a href="category.html">style hunter</a></li>
-										<li><a href="category.html">vogue</a></li>
-										<li><a href="category.html">health & fitness</a></li>
-										<li><a href="category.html">travel</a></li>
-									</ul>
-								</div>
-								<div class="section_panel_more">
-									<ul>
-										<li>more
-											<ul>
-												<li><a href="category.html">new look 2018</a></li>
-												<li><a href="category.html">street fashion</a></li>
-												<li><a href="category.html">business</a></li>
-												<li><a href="category.html">recipes</a></li>
-												<li><a href="category.html">sport</a></li>
-												<li><a href="category.html">celebrities</a></li>
-											</ul>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="section_content">
-								<div class="grid clearfix">
-									
-									<!-- Large Card With Background -->
-									<div class="card card_large_with_background grid-item">
-										<div class="card_background" style="background-image:url(images/post_8.jpg)"></div>
-										<div class="card-body">
-											<div class="card-title"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-									
-									<!-- Large Card With Image -->
-									<div class="card grid-item card_large_with_image">
-										<img class="card-img-top" src="images/post_9.jpg" alt="">
-										<div class="card-body">
-											<div class="card-title"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<p class="card-text">Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it off with your teeth. Sink them into unripened...</p>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Default Card With Image -->
-									<div class="card card_small_with_image grid-item">
-										<img class="card-img-top" src="images/post_5.jpg" alt="">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-									
-									<!-- Default Card With Background -->
-
-									<div class="card card_default card_default_with_background grid-item">
-										<div class="card_background" style="background-image:url(images/post_6.jpg)"></div>
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a></div>
-										</div>
-									</div>
-
-									<!-- Default Card No Image -->
-									<div class="card card_default card_default_no_image grid-item">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a></div>
-										</div>
-									</div>
-
-									<!-- Default Card No Image -->
-									<div class="card card_default card_default_no_image grid-item">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a></div>
-										</div>
-									</div>
-
-									<!-- Default Card With Background -->
-
-									<div class="card card_default card_default_with_background grid-item">
-										<div class="card_background" style="background-image:url(images/post_7.jpg)"></div>
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a></div>
-										</div>
-									</div>
-
-								</div>
-								
-							</div>
-						</div>
-
-						<!-- Blog Section - Videos -->
-
-						<div class="blog_section">
-							<div class="section_panel d-flex flex-row align-items-center justify-content-start">
-								<div class="section_title">Most Popular Videos</div>
-							</div>
-							<div class="section_content">
-								<div class="row">
-									<div class="col">
-										<div class="videos">
-											<div class="player_container">
-												<div id="P1" class="player" 
-												     data-property="{videoURL:'2ScS5kwm7nI',containment:'self',startAt:0,mute:false,autoPlay:false,loop:false,opacity:1}">
-												</div>
-											</div>
-											<div class="playlist">
-												<div class="playlist_background"></div>
-
-												<!-- Video -->
-												<div class="video_container video_command active" onclick="jQuery('#P1').YTPChangeVideo({videoURL: '2ScS5kwm7nI', mute:false, addRaster:true})">
-													<div class="video d-flex flex-row align-items-center justify-content-start">
-														<div class="video_image"><div><img src="images/video_1.jpg" alt=""></div><img class="play_img" src="images/play.png" alt=""></div>
-														<div class="video_content">
-															<div class="video_title">How Did van Gogh’s Turbulent Mind</div>
-															<div class="video_info"><span>1.2M views</span><span>Sep 29</span></div>
-														</div>
-													</div>
-												</div>
-
-												<!-- Video -->
-												<div class="video_container video_command" onclick="jQuery('#P1').YTPChangeVideo({videoURL: 'BzMLA8YIgG0', mute:false, addRaster:true})">
-													<div class="video d-flex flex-row align-items-center justify-content-start">
-														<div class="video_image"><div><img src="images/video_2.jpg" alt=""></div><img class="play_img" src="images/play.png" alt=""></div>
-														<div class="video_content">
-															<div class="video_title">How Did van Gogh’s Turbulent Mind</div>
-															<div class="video_info"><span>1.2M views</span><span>Sep 29</span></div>
-														</div>
-													</div>
-												</div>
-
-												<!-- Video -->
-												<div class="video_container video_command" onclick="jQuery('#P1').YTPChangeVideo({videoURL: 'bpbcSdqvtUQ', mute:false, addRaster:true})">
-													<div class="video d-flex flex-row align-items-center justify-content-start">
-														<div class="video_image"><div><img src="images/video_3.jpg" alt=""></div><img class="play_img" src="images/play.png" alt=""></div>
-														<div class="video_content">
-															<div class="video_title">How Did van Gogh’s Turbulent Mind</div>
-															<div class="video_info"><span>1.2M views</span><span>Sep 29</span></div>
-														</div>
-													</div>
-												</div>
-
-												<!-- Video -->
-												<div class="video_container video_command" onclick="jQuery('#P1').YTPChangeVideo({videoURL: 'UjYemgbhJF0', mute:false, addRaster:true})">
-													<div class="video d-flex flex-row align-items-center justify-content-start">
-														<div class="video_image"><div><img src="images/video_4.jpg" alt=""></div><img class="play_img" src="images/play.png" alt=""></div>
-														<div class="video_content">
-															<div class="video_title">How Did van Gogh’s Turbulent Mind</div>
-															<div class="video_info"><span>1.2M views</span><span>Sep 29</span></div>
-														</div>
-													</div>
-												</div>
-
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Blog Section - Latest -->
-
-						<div class="blog_section">
-							<div class="section_panel d-flex flex-row align-items-center justify-content-start">
-								<div class="section_title">Latest Articles</div>
-							</div>
-							<div class="section_content">
-								<div class="grid clearfix">
-									
-									<!-- Small Card With Image -->
-									<div class="card card_small_with_image grid-item">
-										<img class="card-img-top" src="images/post_10.jpg" alt="">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card Without Image -->
-									<div class="card card_default card_small_no_image grid-item">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card With Image -->
-									<div class="card card_small_with_image grid-item">
-										<img class="card-img-top" src="images/post_15.jpg" alt="">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card With Image -->
-									<div class="card card_small_with_image grid-item">
-										<img class="card-img-top" src="images/post_13.jpg" alt="https://unsplash.com/@jakobowens1">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card With Background -->
-									<div class="card card_default card_small_with_background grid-item">
-										<div class="card_background" style="background-image:url(images/post_11.jpg)"></div>
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card With Background -->
-									<div class="card card_default card_small_with_background grid-item">
-										<div class="card_background" style="background-image:url(images/post_16.jpg)"></div>
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card With Image -->
-									<div class="card card_small_with_image grid-item">
-										<img class="card-img-top" src="images/post_14.jpg" alt="">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card Without Image -->
-									<div class="card card_default card_small_no_image grid-item">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Small Card Without Image -->
-									<div class="card card_default card_small_no_image grid-item">
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</a></div>
-											<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-										</div>
-									</div>
-
-									<!-- Default Card With Background -->
-									<div class="card card_default card_default_with_background grid-item">
-										<div class="card_background" style="background-image:url(images/post_12.jpg)"></div>
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a></div>
-										</div>
-									</div>
-
-									<!-- Default Card With Background -->
-									<div class="card card_default card_default_with_background grid-item">
-										<div class="card_background" style="background-image:url(images/post_6.jpg)"></div>
-										<div class="card-body">
-											<div class="card-title card-title-small"><a href="post.html">How Did van Gogh’s Turbulent Mind Depict One of the Most</a></div>
-										</div>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-
-					</div>
-					<div class="load_more">
-						<div id="load_more" class="load_more_button text-center trans_200">Load More</div>
-					</div>
-				</div>
-
-				<!-- Sidebar -->
-
-				<div class="col-lg-3">
-					<div class="sidebar">
-						<div class="sidebar_background"></div>
-
-						<!-- Top Stories -->
-
-						<div class="sidebar_section">
-							<div class="sidebar_title_container">
-								<div class="sidebar_title">Top Stories</div>
-								<div class="sidebar_slider_nav">
-									<div class="custom_nav_container sidebar_slider_nav_container">
-										<div class="custom_prev custom_prev_top">
-											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
-												<polyline fill="#bebebe" points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 "/>
-											</svg>
-										</div>
-								        <ul id="custom_dots" class="custom_dots custom_dots_top">
-											<li class="custom_dot custom_dot_top active"><span></span></li>
-											<li class="custom_dot custom_dot_top"><span></span></li>
-											<li class="custom_dot custom_dot_top"><span></span></li>
-										</ul>
-										<div class="custom_next custom_next_top">
-											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
-												<polyline fill="#bebebe" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 "/>
-											</svg>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="sidebar_section_content">
-
-								<!-- Top Stories Slider -->
-								<div class="sidebar_slider_container">
-									<div class="owl-carousel owl-theme sidebar_slider_top">
-
-										<!-- Top Stories Slider Item -->
-										<div class="owl-item">
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_1.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_2.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_3.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_4.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-										</div>
-
-										<!-- Top Stories Slider Item -->
-										<div class="owl-item">
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_1.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_2.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_3.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_4.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-										</div>
-
-										<!-- Top Stories Slider Item -->
-										<div class="owl-item">
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_1.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_2.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_3.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Sidebar Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/top_4.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Advertising -->
-
-						<div class="sidebar_section">
-							<div class="advertising">
-								<div class="advertising_background" style="background-image:url(images/post_17.jpg)"></div>
-								<div class="advertising_content d-flex flex-column align-items-start justify-content-end">
-									<div class="advertising_perc">-15%</div>
-									<div class="advertising_link"><a href="#">How Did van Gogh’s Turbulent Mind</a></div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Newest Videos -->
-
-						<div class="sidebar_section newest_videos">
-							<div class="sidebar_title_container">
-								<div class="sidebar_title">Newest Videos</div>
-								<div class="sidebar_slider_nav">
-									<div class="custom_nav_container sidebar_slider_nav_container">
-										<div class="custom_prev custom_prev_vid">
-											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
-												<polyline fill="#bebebe" points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 "/>
-											</svg>
-										</div>
-								        <ul id="custom_dots" class="custom_dots custom_dots_vid">
-											<li class="custom_dot custom_dot_vid active"><span></span></li>
-											<li class="custom_dot custom_dot_vid"><span></span></li>
-											<li class="custom_dot custom_dot_vid"><span></span></li>
-										</ul>
-										<div class="custom_next custom_next_vid">
-											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
-												<polyline fill="#bebebe" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 "/>
-											</svg>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="sidebar_section_content">
-
-								<!-- Sidebar Slider -->
-								<div class="sidebar_slider_container">
-									<div class="owl-carousel owl-theme sidebar_slider_vid">
-
-										<!-- Newest Videos Slider Item -->
-										<div class="owl-item">
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_1.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_2.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_3.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_4.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-										</div>
-
-										<!-- Newest Videos Slider Item -->
-										<div class="owl-item">
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_1.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_2.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_3.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_4.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-										</div>
-
-										<!-- Newest Videos Slider Item -->
-										<div class="owl-item">
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_1.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_2.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_3.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Newest Videos Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="side_post_image"><div><img src="images/vid_4.jpg" alt=""></div></div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Advertising 2 -->
-
-						<div class="sidebar_section">
-							<div class="advertising_2">
-								<div class="advertising_background" style="background-image:url(images/post_18.jpg)"></div>
-								<div class="advertising_2_content d-flex flex-column align-items-center justify-content-center">
-									<div class="advertising_2_link"><a href="#">Turbulent <span>Mind</span></a></div>
-								</div>
-							</div>
-						</div>
-
-						<!-- Future Events -->
-
-						<div class="sidebar_section future_events">
-							<div class="sidebar_title_container">
-								<div class="sidebar_title">Future Events</div>
-								<div class="sidebar_slider_nav">
-									<div class="custom_nav_container sidebar_slider_nav_container">
-										<div class="custom_prev custom_prev_events">
-											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
-												<polyline fill="#bebebe" points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 "/>
-											</svg>
-										</div>
-								        <ul id="custom_dots" class="custom_dots custom_dots_events">
-											<li class="custom_dot custom_dot_events active"><span></span></li>
-											<li class="custom_dot custom_dot_events"><span></span></li>
-											<li class="custom_dot custom_dot_events"><span></span></li>
-										</ul>
-										<div class="custom_next custom_next_events">
-											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
-												<polyline fill="#bebebe" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 "/>
-											</svg>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="sidebar_section_content">
-
-								<!-- Sidebar Slider -->
-								<div class="sidebar_slider_container">
-									<div class="owl-carousel owl-theme sidebar_slider_events">
-
-										<!-- Future Events Slider Item -->
-										<div class="owl-item">
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">13</div>
-															<div class="event_month">apr</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">27</div>
-															<div class="event_month">apr</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">02</div>
-															<div class="event_month">may</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">09</div>
-															<div class="event_month">may</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-										</div>
-
-										<!-- Future Events Slider Item -->
-										<div class="owl-item">
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">13</div>
-															<div class="event_month">apr</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">27</div>
-															<div class="event_month">apr</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">02</div>
-															<div class="event_month">may</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">09</div>
-															<div class="event_month">may</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-										</div>
-
-										<!-- Future Events Slider Item -->
-										<div class="owl-item">
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">13</div>
-															<div class="event_month">apr</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">27</div>
-															<div class="event_month">apr</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">02</div>
-															<div class="event_month">may</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-											<!-- Future Events Post -->
-											<div class="side_post">
-												<a href="post.html">
-													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
-														<div class="event_date d-flex flex-column align-items-center justify-content-center">
-															<div class="event_day">09</div>
-															<div class="event_month">may</div>
-														</div>
-														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
-															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
-														</div>
-													</div>
-												</a>
-											</div>
-
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-	<!-- Footer -->
-
-	<footer class="footer">
-		<div class="container">
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-9 order-lg-1 order-2">
-					<div class="footer_content">
-						<div class="footer_logo"><a href="#">avision</a></div>
-						<div class="footer_social">
-							<ul>
-								<li class="footer_social_facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li class="footer_social_twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li class="footer_social_pinterest"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-								<li class="footer_social_vimeo"><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-								<li class="footer_social_instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li class="footer_social_google"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    <!-- Preloader -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Navbar Area -->
+        <div class="mag-main-menu" id="sticker">
+            <div class="classy-nav-container breakpoint-off">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="magNav">
+
+                    <!-- Nav brand -->
+                    <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Nav Content -->
+                    <div class="nav-content d-flex align-items-center">
+                        <div class="classy-menu">
+
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="archive.html">Archive</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="archive.html">Archive</a></li>
+                                            <li><a href="video-post.html">Single Video Post</a></li>
+                                            <li><a href="single-post.html">Single Post</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="submit-video.html">Submit Video</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Mega</a>
+                                        <div class="megamenu">
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="archive.html">Archive</a></li>
+                                                <li><a href="video-post.html">Single Video Post</a></li>
+                                                <li><a href="single-post.html">Single Post</a></li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="archive.html">Archive</a></li>
+                                                <li><a href="video-post.html">Single Video Post</a></li>
+                                                <li><a href="single-post.html">Single Post</a></li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="archive.html">Archive</a></li>
+                                                <li><a href="video-post.html">Single Video Post</a></li>
+                                                <li><a href="single-post.html">Single Post</a></li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                            </ul>
+                                            <ul class="single-mega cn-col-4">
+                                                <li><a href="index.html">Home</a></li>
+                                                <li><a href="archive.html">Archive</a></li>
+                                                <li><a href="video-post.html">Single Video Post</a></li>
+                                                <li><a href="single-post.html">Single Post</a></li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+
+                        <div class="top-meta-data d-flex align-items-center">
+                            <!-- Top Search Area -->
+                            <div class="top-search-area">
+                                <form action="index.html" method="post">
+                                    <input type="search" name="top-search" id="topSearch" placeholder="Search and hit enter...">
+                                    <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                            <!-- Login -->
+                            <a href="login.html" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
+                            <!-- Submit Video -->
+                            <a href="submit-video.html" class="submit-video"><span><i class="fa fa-cloud-upload"></i></span> <span class="video-text">Submit Video</span></a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <div class="hero-area owl-carousel">
+        <!-- Single Blog Post -->
+        <div class="hero-blog-post bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <!-- Post Contetnt -->
+                        <div class="post-content text-center">
+                            <div class="post-meta" data-animation="fadeInUp" data-delay="100ms">
+                                <a href="#">MAY 8, 2018</a>
+                                <a href="archive.html">lifestyle</a>
+                            </div>
+                            <a href="video-post.html" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
+                            <a href="video-post.html" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single Blog Post -->
+        <div class="hero-blog-post bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <!-- Post Contetnt -->
+                        <div class="post-content text-center">
+                            <div class="post-meta" data-animation="fadeInUp" data-delay="100ms">
+                                <a href="#">MAY 8, 2018</a>
+                                <a href="archive.html">lifestyle</a>
+                            </div>
+                            <a href="video-post.html" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
+                            <a href="video-post.html" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Single Blog Post -->
+        <div class="hero-blog-post bg-img bg-overlay" style="background-image: url(img/bg-img/3.jpg);">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <!-- Post Contetnt -->
+                        <div class="post-content text-center">
+                            <div class="post-meta" data-animation="fadeInUp" data-delay="100ms">
+                                <a href="#">MAY 8, 2018</a>
+                                <a href="archive.html">lifestyle</a>
+                            </div>
+                            <a href="video-post.html" class="post-title" data-animation="fadeInUp" data-delay="300ms">Party Jokes Startling But Unnecessary</a>
+                            <a href="video-post.html" class="video-play" data-animation="bounceIn" data-delay="500ms"><i class="fa fa-play"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Mag Posts Area Start ##### -->
+    <section class="mag-posts-area d-flex flex-wrap">
+
+        <!-- >>>>>>>>>>>>>>>>>>>>
+         Post Left Sidebar Area
+        <<<<<<<<<<<<<<<<<<<<< -->
+        <div class="post-sidebar-area left-sidebar mt-30 mb-30 bg-white box-shadow">
+            <!-- Sidebar Widget -->
+            <div class="single-sidebar-widget p-30">
+                <!-- Section Title -->
+                <div class="section-heading">
+                    <h5>Most Popular</h5>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/4.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">Global Travel And Vacations Luxury Travel</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/5.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">Cruising Destination Ideas</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/6.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">The Luxury Of Traveling With</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/7.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">Choose The Perfect Accommodations</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/8.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">A Guide To Rocky Mountain Vacations</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar Widget -->
+            <div class="single-sidebar-widget">
+                <a href="#" class="add-img"><img src="img/bg-img/add.png" alt=""></a>
+            </div>
+
+            <!-- Sidebar Widget -->
+            <div class="single-sidebar-widget p-30">
+                <!-- Section Title -->
+                <div class="section-heading">
+                    <h5>Latest Videos</h5>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/9.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">Coventry City Guide Including Coventry</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/10.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">Choose The Perfect Accommodations</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/11.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">Get Ready Fast For Fall Leaf Viewing</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/12.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">Global Resorts Network Grn Putting</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="single-blog-post d-flex">
+                    <div class="post-thumbnail">
+                        <img src="img/bg-img/13.jpg" alt="">
+                    </div>
+                    <div class="post-content">
+                        <a href="single-post.html" class="post-title">Travel Prudently Luggage And Carry</a>
+                        <div class="post-meta d-flex justify-content-between">
+                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- >>>>>>>>>>>>>>>>>>>>
+             Main Posts Area
+        <<<<<<<<<<<<<<<<<<<<< -->
+        <div class="mag-posts-content mt-30 mb-30 p-30 box-shadow">
+            <!-- Trending Now Posts Area -->
+            <div class="trending-now-posts mb-30">
+                <!-- Section Title -->
+                <div class="section-heading">
+                    <h5>TRENDING NOW</h5>
+                </div>
+
+                <div class="trending-post-slides owl-carousel">
+                    <!-- Single Trending Post -->
+                    <div class="single-trending-post">
+                        <img src="img/bg-img/19.jpg" alt="">
+                        <div class="post-content">
+                            <a href="#" class="post-cata">Video</a>
+                            <a href="video-post.html" class="post-title">Big Savings On Gas While You Travel</a>
+                        </div>
+                    </div>
+
+                    <!-- Single Trending Post -->
+                    <div class="single-trending-post">
+                        <img src="img/bg-img/20.jpg" alt="">
+                        <div class="post-content">
+                            <a href="#" class="post-cata">TV Show</a>
+                            <a href="video-post.html" class="post-title">A Guide To Rocky Mountain Vacations</a>
+                        </div>
+                    </div>
+
+                    <!-- Single Trending Post -->
+                    <div class="single-trending-post">
+                        <img src="img/bg-img/21.jpg" alt="">
+                        <div class="post-content">
+                            <a href="#" class="post-cata">Sports</a>
+                            <a href="video-post.html" class="post-title">The Health Benefits Of Sunglasses</a>
+                        </div>
+                    </div>
+
+                    <!-- Single Trending Post -->
+                    <div class="single-trending-post">
+                        <img src="img/bg-img/19.jpg" alt="">
+                        <div class="post-content">
+                            <a href="#" class="post-cata">Video</a>
+                            <a href="video-post.html" class="post-title">Big Savings On Gas While You Travel</a>
+                        </div>
+                    </div>
+
+                    <!-- Single Trending Post -->
+                    <div class="single-trending-post">
+                        <img src="img/bg-img/20.jpg" alt="">
+                        <div class="post-content">
+                            <a href="#" class="post-cata">TV Show</a>
+                            <a href="video-post.html" class="post-title">A Guide To Rocky Mountain Vacations</a>
+                        </div>
+                    </div>
+
+                    <!-- Single Trending Post -->
+                    <div class="single-trending-post">
+                        <img src="img/bg-img/21.jpg" alt="">
+                        <div class="post-content">
+                            <a href="#" class="post-cata">Sports</a>
+                            <a href="video-post.html" class="post-title">The Health Benefits Of Sunglasses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature Video Posts Area -->
+            <div class="feature-video-posts mb-30">
+                <!-- Section Title -->
+                <div class="section-heading">
+                    <h5>Featured Videos</h5>
+                </div>
+
+                <div class="featured-video-posts">
+                    <div class="row">
+                        <div class="col-12 col-lg-7">
+                            <!-- Single Featured Post -->
+                            <div class="single-featured-post">
+                                <!-- Thumbnail -->
+                                <div class="post-thumbnail mb-50">
+                                    <img src="img/bg-img/22.jpg" alt="">
+                                    <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                                </div>
+                                <!-- Post Contetnt -->
+                                <div class="post-content">
+                                    <div class="post-meta">
+                                        <a href="#">MAY 8, 2018</a>
+                                        <a href="archive.html">lifestyle</a>
+                                    </div>
+                                    <a href="video-post.html" class="post-title">A Closer Look At Our Front Porch Items From Lowe’s</a>
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                                </div>
+                                <!-- Post Share Area -->
+                                <div class="post-share-area d-flex align-items-center justify-content-between">
+                                    <!-- Post Meta -->
+                                    <div class="post-meta pl-3">
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                    </div>
+                                    <!-- Share Info -->
+                                    <div class="share-info">
+                                        <a href="#" class="sharebtn"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                        <!-- All Share Buttons -->
+                                        <div class="all-share-btn d-flex">
+                                            <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                            <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                            <a href="#" class="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                            <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-5">
+                            <!-- Featured Video Posts Slide -->
+                            <div class="featured-video-posts-slide owl-carousel">
+
+                                <div class="single--slide">
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/23.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">Global Resorts Network Grn Putting Timeshares To Shame</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/24.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">A Guide To Rocky Mountain Vacations</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/25.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">American Standards And European Culture How To Avoid</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/26.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">Mother Earth Hosts Our Travels</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/27.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">From Wetlands To Canals And Dams Amsterdam Is Alive</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="single--slide">
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/23.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">Global Resorts Network Grn Putting Timeshares To Shame</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/24.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">A Guide To Rocky Mountain Vacations</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/25.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">American Standards And European Culture How To Avoid</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/26.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">Mother Earth Hosts Our Travels</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-blog-post d-flex style-3">
+                                        <div class="post-thumbnail">
+                                            <img src="img/bg-img/27.jpg" alt="">
+                                        </div>
+                                        <div class="post-content">
+                                            <a href="single-post.html" class="post-title">From Wetlands To Canals And Dams Amsterdam Is Alive</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Most Viewed Videos -->
+            <div class="most-viewed-videos mb-30">
+                <!-- Section Title -->
+                <div class="section-heading">
+                    <h5>Most Viewed Videos</h5>
+                </div>
+
+                <div class="most-viewed-videos-slide owl-carousel">
+
+                    <!-- Single Blog Post -->
+                    <div class="single-blog-post style-4">
+                        <div class="post-thumbnail">
+                            <img src="img/bg-img/28.jpg" alt="">
+                            <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            <span class="video-duration">09:27</span>
+                        </div>
+                        <div class="post-content">
+                            <a href="single-post.html" class="post-title">A Guide To Rocky Mountain Vacations</a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Blog Post -->
+                    <div class="single-blog-post style-4">
+                        <div class="post-thumbnail">
+                            <img src="img/bg-img/29.jpg" alt="">
+                            <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            <span class="video-duration">09:27</span>
+                        </div>
+                        <div class="post-content">
+                            <a href="single-post.html" class="post-title">Dentists Are Smiling Over Painless Veneer Alternative</a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Blog Post -->
+                    <div class="single-blog-post style-4">
+                        <div class="post-thumbnail">
+                            <img src="img/bg-img/30.jpg" alt="">
+                            <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            <span class="video-duration">09:27</span>
+                        </div>
+                        <div class="post-content">
+                            <a href="single-post.html" class="post-title">Become A Travel Pro In One Easy Lesson</a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Blog Post -->
+                    <div class="single-blog-post style-4">
+                        <div class="post-thumbnail">
+                            <img src="img/bg-img/28.jpg" alt="">
+                            <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            <span class="video-duration">09:27</span>
+                        </div>
+                        <div class="post-content">
+                            <a href="single-post.html" class="post-title">A Guide To Rocky Mountain Vacations</a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Blog Post -->
+                    <div class="single-blog-post style-4">
+                        <div class="post-thumbnail">
+                            <img src="img/bg-img/29.jpg" alt="">
+                            <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            <span class="video-duration">09:27</span>
+                        </div>
+                        <div class="post-content">
+                            <a href="single-post.html" class="post-title">Dentists Are Smiling Over Painless Veneer Alternative</a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Blog Post -->
+                    <div class="single-blog-post style-4">
+                        <div class="post-thumbnail">
+                            <img src="img/bg-img/30.jpg" alt="">
+                            <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                            <span class="video-duration">09:27</span>
+                        </div>
+                        <div class="post-content">
+                            <a href="single-post.html" class="post-title">Become A Travel Pro In One Easy Lesson</a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Sports Videos -->
+            <div class="sports-videos-area">
+                <!-- Section Title -->
+                <div class="section-heading">
+                    <h5>Sports Videos</h5>
+                </div>
+
+                <div class="sports-videos-slides owl-carousel mb-30">
+                    <!-- Single Featured Post -->
+                    <div class="single-featured-post">
+                        <!-- Thumbnail -->
+                        <div class="post-thumbnail mb-50">
+                            <img src="img/bg-img/22.jpg" alt="">
+                            <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                        </div>
+                        <!-- Post Contetnt -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a href="#">MAY 8, 2018</a>
+                                <a href="archive.html">lifestyle</a>
+                            </div>
+                            <a href="video-post.html" class="post-title">A Closer Look At Our Front Porch Items From Lowe’s</a>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                        </div>
+                        <!-- Post Share Area -->
+                        <div class="post-share-area d-flex align-items-center justify-content-between">
+                            <!-- Post Meta -->
+                            <div class="post-meta pl-3">
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                            </div>
+                            <!-- Share Info -->
+                            <div class="share-info">
+                                <a href="#" class="sharebtn"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                <!-- All Share Buttons -->
+                                <div class="all-share-btn d-flex">
+                                    <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#" class="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Featured Post -->
+                    <div class="single-featured-post">
+                        <!-- Thumbnail -->
+                        <div class="post-thumbnail mb-50">
+                            <img src="img/bg-img/22.jpg" alt="">
+                            <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                        </div>
+                        <!-- Post Contetnt -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a href="#">MAY 8, 2018</a>
+                                <a href="archive.html">lifestyle</a>
+                            </div>
+                            <a href="video-post.html" class="post-title">A Closer Look At Our Front Porch Items From Lowe’s</a>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                        </div>
+                        <!-- Post Share Area -->
+                        <div class="post-share-area d-flex align-items-center justify-content-between">
+                            <!-- Post Meta -->
+                            <div class="post-meta pl-3">
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                            </div>
+                            <!-- Share Info -->
+                            <div class="share-info">
+                                <a href="#" class="sharebtn"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                <!-- All Share Buttons -->
+                                <div class="all-share-btn d-flex">
+                                    <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#" class="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Featured Post -->
+                    <div class="single-featured-post">
+                        <!-- Thumbnail -->
+                        <div class="post-thumbnail mb-50">
+                            <img src="img/bg-img/22.jpg" alt="">
+                            <a href="video-post.html" class="video-play"><i class="fa fa-play"></i></a>
+                        </div>
+                        <!-- Post Contetnt -->
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <a href="#">MAY 8, 2018</a>
+                                <a href="archive.html">lifestyle</a>
+                            </div>
+                            <a href="video-post.html" class="post-title">A Closer Look At Our Front Porch Items From Lowe’s</a>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                        </div>
+                        <!-- Post Share Area -->
+                        <div class="post-share-area d-flex align-items-center justify-content-between">
+                            <!-- Post Meta -->
+                            <div class="post-meta pl-3">
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                            </div>
+                            <!-- Share Info -->
+                            <div class="share-info">
+                                <a href="#" class="sharebtn"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                                <!-- All Share Buttons -->
+                                <div class="all-share-btn d-flex">
+                                    <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#" class="google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Single Blog Post -->
+                    <div class="col-12 col-lg-6">
+                        <div class="single-blog-post d-flex style-3 mb-30">
+                            <div class="post-thumbnail">
+                                <img src="img/bg-img/31.jpg" alt="">
+                            </div>
+                            <div class="post-content">
+                                <a href="single-post.html" class="post-title">From Wetlands To Canals And Dams Amsterdam Is Alive</a>
+                                <div class="post-meta d-flex">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Blog Post -->
+                    <div class="col-12 col-lg-6">
+                        <div class="single-blog-post d-flex style-3 mb-30">
+                            <div class="post-thumbnail">
+                                <img src="img/bg-img/32.jpg" alt="">
+                            </div>
+                            <div class="post-content">
+                                <a href="single-post.html" class="post-title">From Wetlands To Canals And Dams Amsterdam Is Alive</a>
+                                <div class="post-meta d-flex">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Blog Post -->
+                    <div class="col-12 col-lg-6">
+                        <div class="single-blog-post d-flex style-3 mb-30">
+                            <div class="post-thumbnail">
+                                <img src="img/bg-img/33.jpg" alt="">
+                            </div>
+                            <div class="post-content">
+                                <a href="single-post.html" class="post-title">From Wetlands To Canals And Dams Amsterdam Is Alive</a>
+                                <div class="post-meta d-flex">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Blog Post -->
+                    <div class="col-12 col-lg-6">
+                        <div class="single-blog-post d-flex style-3 mb-30">
+                            <div class="post-thumbnail">
+                                <img src="img/bg-img/34.jpg" alt="">
+                            </div>
+                            <div class="post-content">
+                                <a href="single-post.html" class="post-title">From Wetlands To Canals And Dams Amsterdam Is Alive</a>
+                                <div class="post-meta d-flex">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 1034</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 834</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 234</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- >>>>>>>>>>>>>>>>>>>>
+         Post Right Sidebar Area
+        <<<<<<<<<<<<<<<<<<<<< -->
+        <div class="post-sidebar-area right-sidebar mt-30 mb-30 box-shadow">
+            <!-- Sidebar Widget -->
+            <div class="single-sidebar-widget p-30">
+                <!-- Social Followers Info -->
+                <div class="social-followers-info">
+                    <!-- Facebook -->
+                    <a href="#" class="facebook-fans"><i class="fa fa-facebook"></i> 4,360 <span>Fans</span></a>
+                    <!-- Twitter -->
+                    <a href="#" class="twitter-followers"><i class="fa fa-twitter"></i> 3,280 <span>Followers</span></a>
+                    <!-- YouTube -->
+                    <a href="#" class="youtube-subscribers"><i class="fa fa-youtube"></i> 1250 <span>Subscribers</span></a>
+                    <!-- Google -->
+                    <a href="#" class="google-followers"><i class="fa fa-google-plus"></i> 4,230 <span>Followers</span></a>
+                </div>
+            </div>
+
+            <!-- Sidebar Widget -->
+            <div class="single-sidebar-widget p-30">
+                <!-- Section Title -->
+                <div class="section-heading">
+                    <h5>Categories</h5>
+                </div>
+
+                <!-- Catagory Widget -->
+                <ul class="catagory-widgets">
+                    <li><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i> Life Style</span> <span>35</span></a></li>
+                    <li><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i> Travel</span> <span>30</span></a></li>
+                    <li><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i> Foods</span> <span>13</span></a></li>
+                    <li><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i> Game</span> <span>06</span></a></li>
+                    <li><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i> Sports</span> <span>28</span></a></li>
+                    <li><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i> Football</span> <span>08</span></a></li>
+                    <li><a href="#"><span><i class="fa fa-angle-double-right" aria-hidden="true"></i> TV Show</span> <span>13</span></a></li>
+                </ul>
+            </div>
+
+            <!-- Sidebar Widget -->
+            <div class="single-sidebar-widget">
+                <a href="#" class="add-img"><img src="img/bg-img/add2.png" alt=""></a>
+            </div>
+
+            <!-- Sidebar Widget -->
+            <div class="single-sidebar-widget p-30">
+                <!-- Section Title -->
+                <div class="section-heading">
+                    <h5>Hot Channels</h5>
+                </div>
+
+                <!-- Single YouTube Channel -->
+                <div class="single-youtube-channel d-flex">
+                    <div class="youtube-channel-thumbnail">
+                        <img src="img/bg-img/14.jpg" alt="">
+                    </div>
+                    <div class="youtube-channel-content">
+                        <a href="single-post.html" class="channel-title">TV Show</a>
+                        <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                    </div>
+                </div>
+
+                <!-- Single YouTube Channel -->
+                <div class="single-youtube-channel d-flex">
+                    <div class="youtube-channel-thumbnail">
+                        <img src="img/bg-img/15.jpg" alt="">
+                    </div>
+                    <div class="youtube-channel-content">
+                        <a href="single-post.html" class="channel-title">Game Channel</a>
+                        <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                    </div>
+                </div>
+
+                <!-- Single YouTube Channel -->
+                <div class="single-youtube-channel d-flex">
+                    <div class="youtube-channel-thumbnail">
+                        <img src="img/bg-img/16.jpg" alt="">
+                    </div>
+                    <div class="youtube-channel-content">
+                        <a href="single-post.html" class="channel-title">Sport Channel</a>
+                        <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                    </div>
+                </div>
+
+                <!-- Single YouTube Channel -->
+                <div class="single-youtube-channel d-flex">
+                    <div class="youtube-channel-thumbnail">
+                        <img src="img/bg-img/17.jpg" alt="">
+                    </div>
+                    <div class="youtube-channel-content">
+                        <a href="single-post.html" class="channel-title">Travel Channel</a>
+                        <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                    </div>
+                </div>
+
+                <!-- Single YouTube Channel -->
+                <div class="single-youtube-channel d-flex">
+                    <div class="youtube-channel-thumbnail">
+                        <img src="img/bg-img/18.jpg" alt="">
+                    </div>
+                    <div class="youtube-channel-content">
+                        <a href="single-post.html" class="channel-title">LifeStyle Channel</a>
+                        <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Sidebar Widget -->
+            <div class="single-sidebar-widget p-30">
+                <!-- Section Title -->
+                <div class="section-heading">
+                    <h5>Newsletter</h5>
+                </div>
+
+                <div class="newsletter-form">
+                    <p>Subscribe our newsletter gor get notification about new updates, information discount, etc.</p>
+                    <form action="#" method="get">
+                        <input type="search" name="widget-search" placeholder="Enter your email">
+                        <button type="submit" class="btn mag-btn w-100">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ##### Mag Posts Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-widget">
+                        <!-- Logo -->
+                        <a href="index.html" class="foo-logo"><img src="img/core-img/logo2.png" alt=""></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="footer-social-info">
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-widget">
+                        <h6 class="widget-title">Categories</h6>
+                        <nav class="footer-widget-nav">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Life Style</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Tech</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Travel</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Music</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Foods</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Fashion</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Game</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Football</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Sports</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> TV Show</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-widget">
+                        <h6 class="widget-title">Sport Videos</h6>
+                        <!-- Single Blog Post -->
+                        <div class="single-blog-post style-2 d-flex">
+                            <div class="post-thumbnail">
+                                <img src="img/bg-img/12.jpg" alt="">
+                            </div>
+                            <div class="post-content">
+                                <a href="single-post.html" class="post-title">Take A Romantic Break In A Boutique Hotel</a>
+                                <div class="post-meta d-flex justify-content-between">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Blog Post -->
+                        <div class="single-blog-post style-2 d-flex">
+                            <div class="post-thumbnail">
+                                <img src="img/bg-img/13.jpg" alt="">
+                            </div>
+                            <div class="post-content">
+                                <a href="single-post.html" class="post-title">Travel Prudently Luggage And Carry On</a>
+                                <div class="post-meta d-flex justify-content-between">
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="footer-widget">
+                        <h6 class="widget-title">Channels</h6>
+                        <ul class="footer-tags">
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Fashionista</a></li>
+                            <li><a href="#">Music</a></li>
+                            <li><a href="#">DESIGN</a></li>
+                            <li><a href="#">NEWS</a></li>
+                            <li><a href="#">TRENDING</a></li>
+                            <li><a href="#">VIDEO</a></li>
+                            <li><a href="#">Game</a></li>
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Lifestyle</a></li>
+                            <li><a href="#">Foods</a></li>
+                            <li><a href="#">TV Show</a></li>
+                            <li><a href="#">Twitter Video</a></li>
+                            <li><a href="#">Playing</a></li>
+                            <li><a href="#">clips</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copywrite Area -->
+        <div class="copywrite-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Copywrite Text -->
+                    <div class="col-12 col-sm-6">
+                        <p class="copywrite-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-					</div>
-				</div>
-				<div class="col-lg-3 order-lg-2 order-1">
-					<div class="subscribe">
-						<div class="subscribe_background"></div>
-						<div class="subscribe_content">
-							<div class="subscribe_title">Subscribe</div>
-							<form action="#">
-								<input type="email" class="sub_input" placeholder="Your Email" required="required">
-								<button class="sub_button">
-									<svg version="1.1" id="link_arrow_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-										 width="19px" height="13px" viewBox="0 0 19 13" enable-background="new 0 0 19 13" xml:space="preserve">
-										<polygon fill="#FFFFFF" points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 "/>
-									</svg>
-								</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-</div>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <nav class="footer-nav">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Advertisement</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/masonry/masonry.js"></script>
-<script src="plugins/masonry/images_loaded.js"></script>
-<script src="js/custom.js"></script>
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
 </body>
-</html>1
+
+</html>

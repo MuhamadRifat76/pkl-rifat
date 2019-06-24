@@ -144,7 +144,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="breadcrumb-content">
-                        <h2>Contact Us</h2>
+                        <h2>ABOUT US</h2>
                     </div>
                 </div>
             </div>
@@ -160,7 +160,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                            <li class="breadcrumb-item active" aria-current="page">About</li>
                         </ol>
                     </nav>
                 </div>
@@ -169,88 +169,98 @@
     </div>
     <!-- ##### Breadcrumb Area End ##### -->
 
-    <!-- ##### Contact Area Start ##### -->
-    <section class="contact-area">
+    <!-- ##### About Us Area Start ##### -->
+    <section class="about-us-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-xl-8">
-                    <div class="contact-content-area bg-white mb-30 p-30 box-shadow">
-                        <!-- Google Maps -->
-                        <div class="map-area mb-30">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22236.40558254599!2d-118.25292394686001!3d34.057682914027104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z4Kay4Ka4IOCmj-CmnuCnjeCmnOCnh-CmsuCnh-CmuCwg4KaV4KeN4Kav4Ka-4Kay4Ka_4Kar4KeL4Kaw4KeN4Kao4Ka_4Kav4Ka84Ka-LCDgpq7gpr7gprDgp43gppXgpr_gpqgg4Kav4KeB4KaV4KeN4Kak4Kaw4Ka-4Ka34KeN4Kaf4KeN4Kaw!5e0!3m2!1sbn!2sbd!4v1532328708137" allowfullscreen></iframe>
-                        </div>
-
+                    <!-- About Us Content -->
+                    <div class="about-us-content bg-white mb-30 p-30 box-shadow">
                         <!-- Section Title -->
                         <div class="section-heading">
-                            <h5>Contact Info</h5>
+                            <h5>About Us</h5>
                         </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursus quam at scelerisque. Aliquam quis varius orci, vel tincidunt est. Proin ac tincidunti, atmots interdum erat. Maecenas neque lorem, aliquet in tempus non, efficitur ac neque.</p>
+                        <p>Phasellus elefend odio quis dolor pretium condimentu. Morbi quis mauris ipsum urna eu fermentum bentons Suspendisse auctor magna ac porta ornare. Fusce finibus nibh at lacinia lobortis.</p>
+                        <ul>
+                            <li><i class="fa fa-check"></i> Vivamus starlord finibus, dictum massa eget, suscipit metus nami at tristique elit started.</li>
+                            <li><i class="fa fa-check"></i> Cras ipsum libero, suscipit vitamin tellus vitae, feugiat ultricies purus praesent gamora.</li>
+                            <li><i class="fa fa-check"></i> Proin ex sem, ultrices drax the sit amet, facilisis destroyer et odio profession risusest.</li>
+                            <li><i class="fa fa-check"></i> Morbi maximus mauris eget groot dignissim, in laoreet justo facilisis.</li>
+                        </ul>
+                        <img class="mt-15" src="img/bg-img/35.jpg" alt="">
 
-                        <div class="contact-information mb-30">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursus quam at scelerisque. Aliquam quis varius orci, vel tincidunt est. Proin ac tincidunti, atmots interdum erat. Maecenas neque lorem, aliquet in tempus non, efficitur ac neque.</p>
-
-                            <!-- Single Contact Info -->
-                            <div class="single-contact-info d-flex align-items-center">
-                                <div class="icon mr-15">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Our Office:</p>
-                                    <h6>5520 Quebec Place, Brooklyn, NY , USA 10000</h6>
+                        <!-- Team Member Area -->
+                        <div class="section-heading mt-30">
+                            <h5>Our Team</h5>
+                        </div>
+                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="img/bg-img/36.jpg" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 </div>
                             </div>
-
-                            <!-- Single Contact Info -->
-                            <div class="single-contact-info d-flex align-items-center">
-                                <div class="icon mr-15">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Email:</p>
-                                    <h6>infodeercreative@gmail.com</h6>
-                                </div>
-                            </div>
-
-                            <!-- Single Contact Info -->
-                            <div class="single-contact-info d-flex align-items-center">
-                                <div class="icon mr-15">
-                                    <i class="fa fa-phone" aria-hidden="true"></i>
-                                </div>
-                                <div class="text">
-                                    <p>Phone:</p>
-                                    <h6>(+88) 012-3455-0028</h6>
-                                </div>
+                            <div class="team-member-content">
+                                <h6>Mrs. Susan Monroe</h6>
+                                <span>Reporter</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
                             </div>
                         </div>
-
-                        <!-- Section Title -->
-                        <div class="section-heading">
-                            <h5>GET IN TOUCH</h5>
-                        </div>
-
-                        <!-- Contact Form Area -->
-                        <div class="contact-form-area">
-                            <form action="#" method="post">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="name" placeholder="Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" id="email" placeholder="E-mail">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn mag-btn mt-30" type="submit">Send</button>
-                                    </div>
+                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="img/bg-img/37.jpg" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                                 </div>
-                            </form>
+                            </div>
+                            <div class="team-member-content">
+                                <h6>Mr. Luke Garner</h6>
+                                <span>Editor in Chief</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="img/bg-img/38.jpg" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-member-content">
+                                <h6>Ms. Elena Korikova</h6>
+                                <span>Marketer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Single Team Member -->
+                        <div class="single-team-member d-flex align-items-center">
+                            <div class="team-member-thumbnail">
+                                <img src="img/bg-img/39.jpg" alt="">
+                                <div class="social-btn">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="team-member-content">
+                                <h6>Mr. Tom Wellington</h6>
+                                <span>Photographer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur mauris id scelerisque eleifend. Nunc vestibulum cursea quam at scelerisque.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -317,7 +327,7 @@
             </div>
         </div>
     </section>
-    <!-- ##### Contact Area End ##### -->
+    <!-- ##### About Us Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area">
