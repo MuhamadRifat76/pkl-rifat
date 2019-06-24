@@ -1467,4 +1467,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/masonry/images_loaded.js"></script>
 <script src="js/custom.js"></script>
 </body>
-</html>
+</html>1
