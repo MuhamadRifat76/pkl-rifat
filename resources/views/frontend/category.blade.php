@@ -26,15 +26,15 @@
 			<div class="row">
 				<div class="col">
 					<div class="header_content d-flex flex-row align-items-center justify-content-start">
-						<div class="logo"><a href="#">avision</a></div>
+						<div class="logo"><a href="Welcome">News</a></div>
 						<nav class="main_nav">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
+								<li class="active"><a href="Welcome">Home</a></li>
 								<li><a href="category">Category</a></li>
 								<li><a href="#">Gadgets</a></li>
 								<li><a href="#">Lifestyle</a></li>
 								<li><a href="#">Video</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="contact">Contact</a></li>
 							</ul>
 						</nav>
 						<div class="search_container ml-auto">
@@ -70,12 +70,12 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">home</a></li>
-				<li class="menu_mm"><a href="#">Fashion</a></li>
+				<li class="menu_mm"><a href="Welcome">home</a></li>
+				<li class="menu_mm"><a href="category">Category</a></li>
 				<li class="menu_mm"><a href="#">Gadgets</a></li>
 				<li class="menu_mm"><a href="#">Lifestyle</a></li>
 				<li class="menu_mm"><a href="#">Video</a></li>
-				<li class="menu_mm"><a href="contact.html">Contact</a></li>
+				<li class="menu_mm"><a href="contact">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
@@ -104,23 +104,23 @@
 								<div class="section_title">Don't Miss</div>
 								<div class="section_tags ml-auto">
 									<ul>
-										<li class="active"><a href="category.html">all</a></li>
-										<li><a href="category.html">style hunter</a></li>
-										<li><a href="category.html">vogue</a></li>
-										<li><a href="category.html">health & fitness</a></li>
-										<li><a href="category.html">travel</a></li>
+										<li class="active"><a href="category">all</a></li>
+										<li><a href="category">style hunter</a></li>
+										<li><a href="category">vogue</a></li>
+										<li><a href="category">health & fitness</a></li>
+										<li><a href="category">travel</a></li>
 									</ul>
 								</div>
 								<div class="section_panel_more">
 									<ul>
 										<li>more
 											<ul>
-												<li><a href="category.html">new look 2018</a></li>
-												<li><a href="category.html">street fashion</a></li>
-												<li><a href="category.html">business</a></li>
-												<li><a href="category.html">recipes</a></li>
-												<li><a href="category.html">sport</a></li>
-												<li><a href="category.html">celebrities</a></li>
+												<li><a href="category">new look 2018</a></li>
+												<li><a href="category">street fashion</a></li>
+												<li><a href="category">business</a></li>
+												<li><a href="category">recipes</a></li>
+												<li><a href="category">sport</a></li>
+												<li><a href="category">celebrities</a></li>
 											</ul>
 										</li>
 									</ul>

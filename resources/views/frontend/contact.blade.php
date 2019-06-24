@@ -26,15 +26,14 @@
 			<div class="row">
 				<div class="col">
 					<div class="header_content d-flex flex-row align-items-center justify-content-start">
-						<div class="logo"><a href="#">avision</a></div>
+						<div class="logo"><a href="Welcome">News</a></div>
 						<nav class="main_nav">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
+								<li class="active"><a href="Welcome">Home</a></li>
 								<li><a href="category">Category</a></li>
 								<li><a href="#">Gadgets</a></li>
 								<li><a href="#">Lifestyle</a></li>
-								<li><a href="#">Video</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="contact">Contact</a></li>
 							</ul>
 						</nav>
 						<div class="search_container ml-auto">
@@ -61,7 +60,7 @@
 
 	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
 		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-		<div class="logo menu_mm"><a href="#">Avision</a></div>
+		<div class="logo menu_mm"><a href="Welcome">News</a></div>
 		<div class="search">
 			<form action="#">
 				<input type="search" class="header_search_input menu_mm" required="required" placeholder="Type to Search...">
@@ -70,12 +69,12 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">home</a></li>
-				<li class="menu_mm"><a href="#">Fashion</a></li>
+				<li class="menu_mm"><a href="index">home</a></li>
+				<li class="menu_mm"><a href="category">Category</a></li>
 				<li class="menu_mm"><a href="#">Gadgets</a></li>
 				<li class="menu_mm"><a href="#">Lifestyle</a></li>
 				<li class="menu_mm"><a href="#">Video</a></li>
-				<li class="menu_mm"><a href="contact.html">Contact</a></li>
+				<li class="menu_mm"><a href="contact">Contact</a></li>
 			</ul>
 		</nav>
 	</div>

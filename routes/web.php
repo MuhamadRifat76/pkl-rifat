@@ -26,7 +26,7 @@ Route::get('/admin', function () {
 });
 
 
-Route::get('/', function () {
+Route::get('/Welcome', function () {
     return view('frontend/index');
 });
 
