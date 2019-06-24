@@ -45,6 +45,6 @@ Route::get('/contact', function () {
 });
 
 
-Route::get('/categories', function () {
-    return view('frontend/categories');
+Route::get('/catagories', function () {
+    return view('frontend/catagories');
 });
