@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Mag - Video &amp; Magazine HTML Template</title>
+    <title>Berita &amp; 2019</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -35,10 +35,10 @@
         <div class="mag-main-menu" id="sticker">
             <div class="classy-nav-container breakpoint-off">
                 <!-- Menu -->
-                <nav class="classy-navbar justify-content-between" id="magNav">
+                <nav class="classy-navbar justify-content-between" id="">
 
                     <!-- Nav brand -->
-                    <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                    <a href="/" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
 
                     <!-- Navbar Toggler -->
                     <div class="classy-navbar-toggler">
@@ -57,57 +57,57 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="archive.html">Archive</a></li>
+                                    <li class="active"><a href="/">Home</a></li>
+                                    <li><a href="archive">Archive</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="archive.html">Archive</a></li>
-                                            <li><a href="video-post.html">Single Video Post</a></li>
-                                            <li><a href="single-post.html">Single Post</a></li>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="submit-video.html">Submit Video</a></li>
-                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="/">Home</a></li>
+                                            <li><a href="archive">Archive</a></li>
+                                            <li><a href="video-post">Single Video Post</a></li>
+                                            <li><a href="single-post">Single Post</a></li>
+                                            <li><a href="about">About Us</a></li>
+                                            <li><a href="contact">Contact</a></li>
+                                            <li><a href="submit">Artikel</a></li>
+                                            <li><a href="login">Login</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Mega</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="archive.html">Archive</a></li>
-                                                <li><a href="video-post.html">Single Video Post</a></li>
-                                                <li><a href="single-post.html">Single Post</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="archive">Archive</a></li>
+                                                <li><a href="video-post">Single Video Post</a></li>
+                                                <li><a href="single-post">Single Post</a></li>
+                                                <li><a href="about">About Us</a></li>
+                                                <li><a href="contact">Contact</a></li>
+                                                <li><a href="login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="archive.html">Archive</a></li>
-                                                <li><a href="video-post.html">Single Video Post</a></li>
-                                                <li><a href="single-post.html">Single Post</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="archive">Archive</a></li>
+                                                <li><a href="video-post">Single Video Post</a></li>
+                                                <li><a href="single-post">Single Post</a></li>
+                                                <li><a href="about">About Us</a></li>
+                                                <li><a href="contact">Contact</a></li>
+                                                <li><a href="login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="archive.html">Archive</a></li>
-                                                <li><a href="video-post.html">Single Video Post</a></li>
-                                                <li><a href="single-post.html">Single Post</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="archive">Archive</a></li>
+                                                <li><a href="video-post">Single Video Post</a></li>
+                                                <li><a href="single-post">Single Post</a></li>
+                                                <li><a href="about">About Us</a></li>
+                                                <li><a href="contact">Contact</a></li>
+                                                <li><a href="login">Login</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="archive.html">Archive</a></li>
-                                                <li><a href="video-post.html">Single Video Post</a></li>
-                                                <li><a href="single-post.html">Single Post</a></li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="/">Home</a></li>
+                                                <li><a href="archive">Archive</a></li>
+                                                <li><a href="video-post">Single Video Post</a></li>
+                                                <li><a href="single-post">Single Post</a></li>
+                                                <li><a href="about">About Us</a></li>
+                                                <li><a href="contact">Contact</a></li>
+                                                <li><a href="login">Login</a></li>
                                             </ul>
                                         </div>
                                     </li>
@@ -121,7 +121,7 @@
                         <div class="top-meta-data d-flex align-items-center">
                             <!-- Top Search Area -->
                             <div class="top-search-area">
-                                <form action="index.html" method="post">
+                                <form action="/" method="post">
                                     <input type="search" name="top-search" id="topSearch" placeholder="Search and hit enter...">
                                     <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
                                 </form>
@@ -327,7 +327,7 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="footer-widget">
                         <!-- Logo -->
-                        <a href="index.html" class="foo-logo"><img src="img/core-img/logo2.png" alt=""></a>
+                        <a href="/" class="foo-logo"><img src="img/core-img/logo2.png" alt=""></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <div class="footer-social-info">
                             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -338,7 +338,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Footer Widget Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="footer-widget">
@@ -359,7 +359,7 @@
                         </nav>
                     </div>
                 </div>
-                
+
                 <!-- Footer Widget Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="footer-widget">
@@ -394,7 +394,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Footer Widget Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="footer-widget">

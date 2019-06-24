@@ -11,11 +11,9 @@
 |
 */
 
-
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Auth::routes();
 
@@ -25,13 +23,16 @@ Route::get('/admin', function () {
     return view('backend');
 });
 
+Route::get('/', function () {
+    return view('frontend/index');
+});
 
 Route::get('/', function () {
     return view('frontend/index');
 });
 
-Route::get('/single-post', function () {
-    return view('frontend/single-post');
+Route::get('/contact', function () {
+    return view('frontend/contact');
 });
 
 
@@ -39,12 +40,6 @@ Route::get('/about', function () {
     return view('frontend/about');
 });
 
-
-Route::get('/contact', function () {
-    return view('frontend/contact');
-});
-
-
-Route::get('/catagory', function () {
-    return view('frontend/catagory');
+Route::get('/archive', function () {
+    return view('frontend/archive');
 });
