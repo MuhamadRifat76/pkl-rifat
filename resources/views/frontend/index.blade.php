@@ -30,7 +30,7 @@
 						<nav class="main_nav">
 							<ul>
 								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="#">Fashion</a></li>
+								<li><a href="category">Category</a></li>
 								<li><a href="#">Gadgets</a></li>
 								<li><a href="#">Lifestyle</a></li>
 								<li><a href="#">Video</a></li>
