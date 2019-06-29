@@ -19,27 +19,39 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+route::get('/admin', function () {
+    return view('backend');
+});
+
+Route::get('dashboardfrontend', function () {
+    return view('dashboardfrontend');
+});
+
 Route::get('/admin', function () {
     return view('backend');
 });
 
 Route::get('/', function () {
-    return view('frontend/index');
+    return view('welcome');
 });
 
-Route::get('/', function () {
-    return view('frontend/index');
+Route::get('/home', function () {
+    return view('home');
 });
-
+Route::get('/single', function () {
+    return view('single');
+});
 Route::get('/contact', function () {
-    return view('frontend/contact');
+    return view('contact');
+});
+Route::get('/catagory', function () {
+    return view('catagory');
+});
+Route::get('/elements', function () {
+    return view('elements');
 });
 
-
-Route::get('/about', function () {
-    return view('frontend/about');
-});
-
-Route::get('/archive', function () {
-    return view('frontend/archive');
-});
+Route::resource('kategori', 'kategoriController');
+Route::resource('tag', 'tagController');
+Route::resource('artikel', 'ArtikelController');
+Route::resource('siswa', 'siswaController');
